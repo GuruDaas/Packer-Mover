@@ -1,0 +1,523 @@
+----------------------------------------------blogs html ----------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Helpful Blogs</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-shadow:hover {
+      box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease-in-out;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Header page-->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Header Section Start -->
+<div class="bg-white border-b border-red-500 py-2">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center flex-wrap">
+
+  <!-- Left Section: Logo + Text -->
+  <div class="flex items-center space-x-4">
+    <img
+      src="https://truewaymovers.com/wp-content/uploads/2022/10/trueway-logo.png"
+      alt="TrueWay Logo"
+      class="h-14 min-w-14"
+    />
+    <div>
+      <h1 class="text-red-600 font-bold text-lg md:text-xl">
+        TRUEWAY PACKERS & MOVERS PVT. LTD.
+      </h1>
+      <p class="text-sm text-gray-700 font-medium italic">
+        "the moving experts"
+      </p>
+    </div>
+  </div>
+
+  <!-- Right Section: Call & WhatsApp -->
+  <div class="flex space-x-6 items-center mt-3 md:mt-0">
+    <!-- Call Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fas fa-phone-alt text-cyan-500 text-lg"></i>
+      <div>
+        <p class="font-bold text-sm">Call Us</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+
+    <!-- WhatsApp Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+      <div>
+        <p class="font-bold text-sm">Whatsapp</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Header Page End -->
+
+
+ <!-- navbar page -->
+  <nav class="bg-red-600 text-white px-4 py-3 shadow-md relative z-10 h-12">
+    <ul class="flex flex-wrap gap-6 justify-center items-center text-sm font-semibold relative gap-10">
+      
+      <li><a href="index.html" class="hover:underline cursor-pointer font-semibold text-[16px] pl-12">HOME</a></li>
+      <li><a href="about.html" class="hover:underline cursor-pointer font-semibold text-[16px]">ABOUT US</a></li>
+
+      <li class="relative group">
+        <button onclick="toggleDropdown()" class="hover:underline cursor-pointer font-semibold text-[16px]">SERVICES</button>
+        <ul id="serviceDropdown" class="hidden absolute left-0 bg-white text-black mt-2 p-2 rounded shadow-lg z-10">
+          <li><a href="services.html" class="hover:underline cursor-pointer block px-4 py-2">All Services</a></li>
+          <li><a href="local-shifting.html" class="block px-4 py-2 hover:bg-gray-200">Local Shifting</a></li>
+          <li><a href="car-transport.html" class="block px-4 py-2 hover:bg-gray-200">Car Transport</a></li>
+        </ul>
+      </li>
+      <li><a href="shifting-process.html" class="hover:underline cursor-pointer font-semibold text-[16px]">SHIFTING PROCESS</a></li>
+      <li><a href="moving-tips.html" class="hover:underline cursor-pointer font-semibold text-[16px]">MOVING TIPS</a></li>
+      <li><a href="galery.html" class="hover:underline cursor-pointer font-semibold text-[16px]">GALERY</a></li>
+      <li><a href="contact.html" class="hover:underline cursor-pointer font-semibold text-[16px]">CONTACT US</a></li>
+      <li><a href="blogs.html" class="hover:underline cursor-pointer font-semibold text-[16px]">BLOGS</a></li>
+      <li><a href="login.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Login</a></li>
+      <li><a href="admin.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Admin pannel</a></li>    </ul>
+  </nav>
+  <!-- navbar page end -->
+
+    <div data-include="navbar.html"></div>
+  <section class="py-10 px-6 lg:px-16 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Helpful Blogs for a Smooth Moving Experience</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      
+      <!-- Blog Card 1 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/Untitled-design-2024-06-11T141441.405-qphu70jgzga551ac6psaa9e5u9zn2d4yf4y9ha2xsw.jpg" alt="International Cargo" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">How to Choose the Best International Cargo</h3>
+          <p class="text-sm text-gray-600 mb-4">Relocating to the USA is a big move. It can be full of excitement and a touch of overwhelm. Among...</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Card 2 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/2024/06/Untitled-design-2024-06-11T141214.943.jpg" alt="Relocation Simplified" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Relocation Simplified: Choosing the Right Packers and Movers for Your Needs</h3>
+          <p class="text-sm text-gray-600 mb-4">Moving to a new house can be a new beginning but also a source of stress. One of the biggest...</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Card 3 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/2024/06/Untitled-design-2024-06-11T141252.467.jpg" alt="Office Relocation" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">The Ultimate Guide to Hassle-Free Office Relocation in India</h3>
+          <p class="text-sm text-gray-600 mb-4">The Ultimate Guide to Hassle-Free Office Relocation in India. Do you need to relocate your office for any reason? Or...</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Card 4 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/2024/04/2147862248.jpg" alt="Hassle-Free Move" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">Home Shifting in India Made Easy: Tips for a Hassle-Free Move</h3>
+          <p class="text-sm text-gray-600 mb-4">Home shifting can be a daunting task. Here are some easy tips to make the process less stressful and more efficient.</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Card 5 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/2024/04/young-delivery-men-showing-ok-sign-near-delivery-car_23-2148944557.jpg" alt="Professional Packers" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">How Professional Packers and Movers Simplify Your Relocation Journey</h3>
+          <p class="text-sm text-gray-600 mb-4">Discover how professional packers and movers can make your relocation journey smooth and worry-free.</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+
+      <!-- Blog Card 6 -->
+      <div class="bg-white rounded-lg shadow-md hover-shadow overflow-hidden">
+        <img src="https://truewaymovers.com/wp-content/uploads/2024/04/front-view-delivery-man-with-packagaes_23-2148684701.jpg" alt="Stress-Free Relocation" class="w-full h-40 object-cover">
+        <div class="p-4">
+          <h3 class="text-lg font-bold text-gray-800 mb-2">10 Benefits of Hiring Professional Packers and Movers for Stress-Free Relocation</h3>
+          <p class="text-sm text-gray-600 mb-4">Learn the top 10 benefits of hiring a professional team for your relocation and how it can save you time and effort.</p>
+          <a href="#" class="text-red-500 font-medium hover:underline">Read More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div data-include="footer.html"></div>
+</body>
+</html>
+
+
+
+-----------------------------------------------Moving Tips--------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moving Tips</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-scale:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+      cursor: pointer;
+    }
+    .fade-in {
+      animation: fadeIn 1s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+
+<!-- Header page-->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Header Section Start -->
+<div class="bg-white border-b border-red-500 py-2">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center flex-wrap">
+
+  <!-- Left Section: Logo + Text -->
+  <div class="flex items-center space-x-4">
+    <img
+      src="https://truewaymovers.com/wp-content/uploads/2022/10/trueway-logo.png"
+      alt="TrueWay Logo"
+      class="h-14 min-w-14"
+    />
+    <div>
+      <h1 class="text-red-600 font-bold text-lg md:text-xl">
+        TRUEWAY PACKERS & MOVERS PVT. LTD.
+      </h1>
+      <p class="text-sm text-gray-700 font-medium italic">
+        "the moving experts"
+      </p>
+    </div>
+  </div>
+
+  <!-- Right Section: Call & WhatsApp -->
+  <div class="flex space-x-6 items-center mt-3 md:mt-0">
+    <!-- Call Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fas fa-phone-alt text-cyan-500 text-lg"></i>
+      <div>
+        <p class="font-bold text-sm">Call Us</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+
+    <!-- WhatsApp Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+      <div>
+        <p class="font-bold text-sm">Whatsapp</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Header Page End -->
+
+
+ <!-- navbar page -->
+  <nav class="bg-red-600 text-white px-4 py-3 shadow-md relative z-10 h-12">
+    <ul class="flex flex-wrap gap-6 justify-center items-center text-sm font-semibold relative gap-10">
+      
+      <li><a href="index.html" class="hover:underline cursor-pointer font-semibold text-[16px] pl-12">HOME</a></li>
+      <li><a href="about.html" class="hover:underline cursor-pointer font-semibold text-[16px]">ABOUT US</a></li>
+
+      <li class="relative group">
+        <button onclick="toggleDropdown()" class="hover:underline cursor-pointer font-semibold text-[16px]">
+          <a href="service.html" class="hover:underline cursor-pointer font-semibold text-[16px]">SERVICES</a>
+        </button>
+        <ul id="serviceDropdown" class="hidden absolute left-0 bg-white text-black mt-2 p-2 rounded shadow-lg z-10">
+          <li><a href="service.html" class="hover:underline cursor-pointer block px-4 py-2">All Services</a></li>
+          <li><a href="local-shifting.html" class="block px-4 py-2 hover:bg-gray-200">Local Shifting</a></li>
+          <li><a href="car-transport.html" class="block px-4 py-2 hover:bg-gray-200">Car Transport</a></li>
+        </ul>
+      </li>
+      <li><a href="shifting_process.html" class="hover:underline cursor-pointer font-semibold text-[16px]">SHIFTING PROCESS</a></li>
+      <li><a href="moving_tips.html" class="hover:underline cursor-pointer font-semibold text-[16px]">MOVING TIPS</a></li>
+      <li><a href="galery.html" class="hover:underline cursor-pointer font-semibold text-[16px]">GALERY</a></li>
+      <li><a href="contact.html" class="hover:underline cursor-pointer font-semibold text-[16px]">CONTACT US</a></li>
+      <li><a href="blogs.html" class="hover:underline cursor-pointer font-semibold text-[16px]">BLOGS</a></li>
+      <li><a href="login.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Login</a></li>
+      <li><a href="admin.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Admin pannel</a></li> 
+      </ul>
+  </nav>
+  <!-- navbar page end -->
+
+  <section class="py-10 px-6 lg:px-16">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+      <!-- Text Section -->
+      <div>
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 fade-in">Moving Tips for a Smooth Relocation in India</h2>
+        <ul class="space-y-4">
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Tell packers and/or driver about fragile or precious items.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Make a final check of the entire house - basement, closets, shelves, attic, garage, every room.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Approve and sign Bill of Lading; if possible accompany driver to the weigh station.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Double check with driver to make certain moving company records show the proper delivery address for your new house. Verify the scheduled delivery date, too.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Give driver phone numbers both here and in new community to contact you in case of a problem.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Get complete routing information from the driver and phone numbers so you can call the driver or company while en route.</p>
+          </li>
+          <li class="flex items-start">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+            <p class="text-gray-700">Disconnect all utilities and advise the real estate agent who sold or is selling your house.</p>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Image Section -->
+      <div class="hover-scale">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/shutterstock_1027775206-min-scaled-pyj40o0m3glafrvqrwn68pcqfaa6kczobez8nl749k.jpg" alt="Moving Tips" class="rounded-lg shadow-md w-full object-cover">
+      </div>
+    </div>
+  </section>
+</body>
+</html>
+
+-----------------------------------Galery page ------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .hover-effect {
+      position: relative;
+      overflow: hidden;
+    }
+    .hover-effect img {
+      transition: transform 0.5s ease-in-out, filter 0.5s ease-in-out;
+    }
+    .hover-effect:hover img {
+      transform: scale(1.1);
+      filter: brightness(80%);
+    }
+    .hover-effect::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.4);
+      opacity: 0;
+      transition: opacity 0.5s ease-in-out;
+      z-index: 1;
+    }
+    .hover-effect:hover::before {
+      opacity: 1;
+    }
+    .hover-effect:hover img {
+      z-index: -1;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header page-->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Header Section Start -->
+<div class="bg-white border-b border-red-500 py-2">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center flex-wrap">
+
+  <!-- Left Section: Logo + Text -->
+  <div class="flex items-center space-x-4">
+    <img
+      src="https://truewaymovers.com/wp-content/uploads/2022/10/trueway-logo.png"
+      alt="TrueWay Logo"
+      class="h-14 min-w-14"
+    />
+    <div>
+      <h1 class="text-red-600 font-bold text-lg md:text-xl">
+        TRUEWAY PACKERS & MOVERS PVT. LTD.
+      </h1>
+      <p class="text-sm text-gray-700 font-medium italic">
+        "the moving experts"
+      </p>
+    </div>
+  </div>
+
+  <!-- Right Section: Call & WhatsApp -->
+  <div class="flex space-x-6 items-center mt-3 md:mt-0">
+    <!-- Call Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fas fa-phone-alt text-cyan-500 text-lg"></i>
+      <div>
+        <p class="font-bold text-sm">Call Us</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+
+    <!-- WhatsApp Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+      <div>
+        <p class="font-bold text-sm">Whatsapp</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Header Page End -->
+
+
+ <!-- navbar page -->
+  <nav class="bg-red-600 text-white px-4 py-3 shadow-md relative z-10 h-12">
+    <ul class="flex flex-wrap gap-6 justify-center items-center text-sm font-semibold relative gap-10">
+      
+      <li><a href="index.html" class="hover:underline cursor-pointer font-semibold text-[16px] pl-12">HOME</a></li>
+      <li><a href="about.html" class="hover:underline cursor-pointer font-semibold text-[16px]">ABOUT US</a></li>
+
+      <li class="relative group">
+        <button onclick="toggleDropdown()" class="hover:underline cursor-pointer font-semibold text-[16px]">SERVICES</button>
+        <ul id="serviceDropdown" class="hidden absolute left-0 bg-white text-black mt-2 p-2 rounded shadow-lg z-10">
+          <li><a href="services.html" class="hover:underline cursor-pointer block px-4 py-2">All Services</a></li>
+          <li><a href="local-shifting.html" class="block px-4 py-2 hover:bg-gray-200">Local Shifting</a></li>
+          <li><a href="car-transport.html" class="block px-4 py-2 hover:bg-gray-200">Car Transport</a></li>
+        </ul>
+      </li>
+      <li><a href="shifting_process.html" class="hover:underline cursor-pointer font-semibold text-[16px]">SHIFTING PROCESS</a></li>
+      <!-- <li><a href="moving_tips.html" class="hover:underline cursor-pointer font-semibold text-[16px]">MOVING TIPS</a></li> -->
+      <li><a href="galery.html" class="hover:underline cursor-pointer font-semibold text-[16px]">GALERY</a></li>
+      <li><a href="contact.html" class="hover:underline cursor-pointer font-semibold text-[16px]">CONTACT US</a></li>
+      <!-- <li><a href="blogs.html" class="hover:underline cursor-pointer font-semibold text-[16px]">BLOGS</a></li> -->
+      <li><a href="login.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Login</a></li>
+      <li><a href="admin.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Admin pannel</a></li>    </ul>
+  </nav>
+  <!-- navbar page end -->
+
+  <section class="py-10 px-6 lg:px-16">
+    <h1 class="text-2xl font-bold text-center text-gray-900 mb-6">
+      Discover Our Relocation Expertise Through Our Gallery
+    </h1>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.51-1-1-scaled-qmget1r4yrr8so44by1ymosky949z22jcyp5b5y8a8.webp" alt="Relocation Image 1" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.51-1-qmget7e63ryyqbvxf0hq1ndcikch98oxdqm26tpv8w.webp" alt="Relocation Image 2" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.52-scaled-qmgetewvmg99b7l073qqllh19nbeytis2rty11epv4.webp" alt="Relocation Image 3" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-1-qn2mojy912msbx1asym9q8r7anqjry8bphe98ykfw0.webp" alt="Relocation Image 4" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-2-qn2moltxeqpcz4ykhzfiv8a4hfha7cfsdqp87ihnjk.webp" alt="Relocation Image 5" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-3-qn2monplserxmcvu708s07t1o780mqn9200762ev74.webp" alt="Relocation Image 6" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.53-1-qmgetjm2kmfox9e6fnrvg2ac8ko91b1frf3dff7r00.webp" alt="Relocation Image 7" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.53-qmgetlhqyai9khbg4ol4l1t9fcezgp8wfoecdz4ynk.webp" alt="Relocation Image 8" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.54-1-qmgetndfbyku7p8ptpedq1c6m45pw3gd3xpbcj26b4.webp" alt="Relocation Image 9" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.51-1-1-scaled-qmget1r4yrr8so44by1ymosky949z22jcyp5b5y8a8.webp" alt="Relocation Image 1" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.51-1-qmget7e63ryyqbvxf0hq1ndcikch98oxdqm26tpv8w.webp" alt="Relocation Image 2" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.52-scaled-qmgetewvmg99b7l073qqllh19nbeytis2rty11epv4.webp" alt="Relocation Image 3" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-1-qn2mojy912msbx1asym9q8r7anqjry8bphe98ykfw0.webp" alt="Relocation Image 4" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-2-qn2moltxeqpcz4ykhzfiv8a4hfha7cfsdqp87ihnjk.webp" alt="Relocation Image 5" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-22-at-11.41.05-3-qn2monplserxmcvu708s07t1o780mqn9200762ev74.webp" alt="Relocation Image 6" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.53-1-qmgetjm2kmfox9e6fnrvg2ac8ko91b1frf3dff7r00.webp" alt="Relocation Image 7" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.53-qmgetlhqyai9khbg4ol4l1t9fcezgp8wfoecdz4ynk.webp" alt="Relocation Image 8" class="w-full h-48 object-cover rounded-lg">
+      </div>
+      <div class="hover-effect rounded-lg shadow-md">
+        <img src="https://truewaymovers.com/wp-content/uploads/elementor/thumbs/WhatsApp-Image-2024-04-08-at-10.39.54-1-qmgetndfbyku7p8ptpedq1c6m45pw3gd3xpbcj26b4.webp" alt="Relocation Image 9" class="w-full h-48 object-cover rounded-lg">
+      </div>
+    </div>
+  </section>
+</body>
+</html>

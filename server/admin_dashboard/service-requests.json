@@ -1,0 +1,44 @@
+[
+    {
+        "name": "sandeep singh",
+        "email": "sandeep123@gmail.com",
+        "service": "Car\/Bike Transportation",
+        "description": "kjbsdbfbsdkfbsdk",
+        "status": "Rejected"
+    },
+    {
+        "name": "rohit singh",
+        "email": "aman1@exa.com",
+        "service": "Storage &amp; Warehousing",
+        "description": "eewrwerewrwe",
+        "status": "Approved"
+    },
+    {
+        "name": "roshan",
+        "email": "roshan12@gmail.com",
+        "service": "Storage &amp; Warehousing",
+        "description": "kjssdbkfbsdk",
+        "status": "Approved"
+    },
+    {
+        "name": "gurpreet singh",
+        "email": "82820@gmail.com",
+        "service": "International Shifting",
+        "description": "mnsdn bsdbfks",
+        "status": "Approved"
+    },
+    {
+        "name": "gurpreet singh",
+        "email": "82820@gmail.com",
+        "service": "International Shifting",
+        "description": "mnsdn bsdbfks",
+        "status": "Pending"
+    },
+    {
+        "name": "abhineet singh",
+        "email": "abhi123@gmail.com",
+        "service": "Office Shifting",
+        "description": "frizz, cular, almeera, bed",
+        "status": "Rejected"
+    }
+]

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trueway Welcome Banner</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+  <!-- Header page-->
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+/>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Header Section Start -->
+<div class="bg-white border-b border-red-500 py-2">
+<div class="max-w-7xl mx-auto px-4 flex justify-between items-center flex-wrap">
+
+  <!-- Left Section: Logo + Text -->
+  <div class="flex items-center space-x-4">
+    <img
+      src="https://truewaymovers.com/wp-content/uploads/2022/10/trueway-logo.png"
+      alt="TrueWay Logo"
+      class="h-14 min-w-14"
+    />
+    <div>
+      <h1 class="text-red-600 font-bold text-lg md:text-xl">
+        TRUEWAY PACKERS & MOVERS PVT. LTD.
+      </h1>
+      <p class="text-sm text-gray-700 font-medium italic">
+        "the moving experts"
+      </p>
+    </div>
+  </div>
+
+  <!-- Right Section: Call & WhatsApp -->
+  <div class="flex space-x-6 items-center mt-3 md:mt-0">
+    <!-- Call Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fas fa-phone-alt text-cyan-500 text-lg"></i>
+      <div>
+        <p class="font-bold text-sm">Call Us</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+
+    <!-- WhatsApp Info -->
+    <div class="flex items-center space-x-2">
+      <i class="fab fa-whatsapp text-green-500 text-2xl"></i>
+      <div>
+        <p class="font-bold text-sm">Whatsapp</p>
+        <p class="text-sm">+91 - 9878522857</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Header Page End -->
+
+
+ <!-- navbar page -->
+ <nav class="bg-red-600 text-white px-4 py-3 shadow-md relative z-10 h-12">
+  <ul class="flex flex-wrap gap-6 justify-center items-center text-sm font-semibold relative gap-10">
+    
+    <li><a href="index.html" class="hover:underline cursor-pointer font-semibold text-[16px] pl-12">HOME</a></li>
+    <li><a href="about.html" class="hover:underline cursor-pointer font-semibold text-[16px]">ABOUT US</a></li>
+
+    <li class="relative group">
+      <ul id="serviceDropdown" class="hidden absolute left-0 bg-white text-black mt-2 p-2 rounded shadow-lg z-10">
+        <li><a href="service.html" class="hover:underline cursor-pointer block px-4 py-2">All Services</a></li>
+        <li><a href="local-shifting.html" class="block px-4 py-2 hover:bg-gray-200">Local Shifting</a></li>
+        <li><a href="car-transport.html" class="block px-4 py-2 hover:bg-gray-200">Car Transport</a></li>
+      </ul>
+    </li>
+    <li><a href="shifting_process.html" class="hover:underline cursor-pointer font-semibold text-[16px]">SHIFTING PROCESS</a></li>
+    <li><a href="contact.html" class="hover:underline cursor-pointer font-semibold text-[16px]">CONTACT US</a></li>
+    <button onclick="toggleDropdown()" class="hover:underline cursor-pointer font-semibold text-[16px]">
+      <a href="../server/admin_dashboard/admin_add_service.php" class="hover:underline cursor-pointer font-semibold text-[16px]">SERVICES</a>
+    </button>
+    <li><a href="login.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Login</a></li>
+    <li><a href="admin.html" class="hover:underline cursor-pointer bold font-semibold text-[17px] ml-10 pl-12">Admin pannel</a></li>
+  </ul>
+</nav>
+<!-- navbar page end -->
+   
+  <!-- ----section -2------------ -->
+    <!-- Hero Banner Section -->
+    <div class="relative">
+      <img
+        class="w-full h-[440px] object-cover"
+        src="https://truewaymovers.com/wp-content/uploads/2024/04/room-with-moving-boxes_1098-17201.jpg"
+        alt="Trueway Packers & Movers"
+      />
+      <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center">
+        <p class="text-white text-sm md:text-lg tracking-wide mb-2">WELCOME TO</p>
+        <h1 class="text-white text-3xl md:text-6xl font-bold text-center">TRUEWAY PACKERS & MOVERS</h1>
+      </div>
+    </div>
+
+    <!-- About Company Section -->
+    <section class="bg-gray-100 py-12 px-6 md:px-12 lg:px-24">
+      <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        
+        <!-- Left Text -->
+        <div>
+          <p class="text-sm text-gray-600 font-semibold uppercase mb-2">About Company</p>
+          <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Best Packers and Movers</h2>
+          <p class="text-gray-700 leading-relaxed mb-4">
+            TrueWay Packers & Movers Pvt. Ltd. is India's leading packing and moving company.
+            Our mission is to offer a delightful home moving service at a delightful price.
+            We make this possible with our US Patent Pending Technology that is uniquely
+            designed to cut-out wastage in the Movers & Packers business. Every shifting we
+            are focusing on quality of service with safely and timely delivery of household
+            goods or vehicles.
+          </p>
+          <p class="text-gray-700 leading-relaxed">
+            Our processes are fully automated from start to end—with dedicated Move Consultants—right
+            from getting you instant quotes to hassle-free execution by our experienced Move Executives,
+            who ensure fully insured breakage-free on-time delivery every time.
+          </p>
+        </div>
+
+        <!-- Right Image -->
+        <div>
+          <img
+            class="w-full rounded-lg shadow-lg"
+            src="https://truewaymovers.com/wp-content/uploads/2024/04/1374.webp"
+            alt="Port View"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Extended Company Info -->
+    <section class="bg-white py-12 px-6 md:px-12 lg:px-24">
+      <div class="max-w-7xl mx-auto text-gray-800 space-y-6 text-justify">
+        
+        <p>
+          <strong>TrueWay Packers & Movers Pvt. Ltd.</strong> is a packing & moving company that is committed
+          to providing outstanding customer service to all the residents of the city. We provide Home Shifting Service
+          across India like Mumbai, Pune, Delhi – NCR, Gurgaon, Noida, Ghaziabad, Chandigarh, Mohali, Bangalore,
+          Hyderabad, Chennai, Kolkata, Bhubaneswar, Jaipur, Ahmedabad, Lucknow, Bhopal, Raipur, Vizag, Kochi,
+          Trivandrum etc.
+        </p>
+
+        <p>
+          Our goal and motivation is to serve our clients the best way possible, with the respect,
+          professionalism and efficiency that you deserve. We have years of residential, commercial,
+          long distance and local distance moving experience that will guarantee a reliable moving
+          service. We provide a wide range of services that are cost-effective and designed to respond
+          to all the demands that the customers may have.
+        </p>
+
+        <p>
+          We have years of experience and we want to help you make your move an enjoyable journey
+          without any stress. Relocating is not easy and you should have the support and assistance
+          of professionals. Our team is fully insured, licensed and bonded to provide you the best
+          service available. For our movers, there is no such thing as too large or difficult moving,
+          they are trained and prepared to tackle all kinds of moving, and they’ll do everything to
+          fulfil your needs and exceed your expectations. We will help you to successfully complete
+          all the tasks that a moving process demands. Our movers will be by your side from start
+          to finish and they’ll protect your belonging as if they were theirs.
+        </p>
+
+        <p>
+          <strong>TrueWay Packers and Movers</strong> is a top packers and movers in India providing
+          local shifting, domestic shifting, storage, packing, bike and car transportation services
+          in Bangalore. Residential Packers and Movers delivers a high-level of quality service that
+          consistently meets our customer’s needs and exceeds expectations. Our Bangalore team of shifting
+          professionals work together to deliver packing and moving solutions that meet your specific needs.
+          To help make your shifting easy and convenient, ask for our 24 Hour best packers and movers service,
+          7 days a week at no additional charges.
+        </p>
+
+        <p>
+          <strong>TrueWay Packers and Movers mission</strong> is to provide the highest quality of
+          packers and movers services in Bangalore at the most reasonable cost. We provide free estimates
+          not only through our website, but also by phone and in person. Once you have compared our prices
+          and services with our competition, you will find our quality, competitive prices, and expertise
+          the smart choice for all of your moving needs.
+        </p>
+
+      </div>
+    </section>
+
+    <!-- Our Partners (Placeholder) -->
+    <section class="bg-gray-50 py-10 text-center">
+      <h2 class="text-xl font-semibold text-gray-700">[ Our Partners Section Will Go Here ]</h2>
+    </section>
+
+</body>
+</html>
